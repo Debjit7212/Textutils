@@ -47,8 +47,8 @@ const handlecopyClick=()=>{
   <textarea className="form-control" value={text} onChange={handleonchange} style={{ backgroundColor: props.mode==='dark'?'grey':'white',color:props.mode==='dark'?'white':'black'}} id="myBox" rows="9"></textarea>
 </div>
 
-<button className="btn btn primary mx-2" style={{backgroundColor:'#0a58ca' ,color:'white'}} onClick={handleUpClick}>Covert To Uppercase</button>
-<button className="btn btn primary mx-2"style={{backgroundColor:'#0a58ca' ,color:'white'}} onClick={handleloClick}>Covert To Lowercase</button>
+<button className="btn btn primary mx-2" style={{backgroundColor:'#0a58ca' ,color:'white'}} onClick={handleUpClick}>Convert To Uppercase</button>
+<button className="btn btn primary mx-2"style={{backgroundColor:'#0a58ca' ,color:'white'}} onClick={handleloClick}>Convert To Lowercase</button>
 <button className="btn btn primary mx-2"style={{backgroundColor:'#0a58ca' ,color:'white'}} onClick={handleclClick}>Clear Click</button>
 <button className="btn btn primary mx-2"style={{backgroundColor:'#0a58ca' ,color:'white'}} onClick={handlecopyClick}>Copy Text</button>
 <button className="btn btn primary mx-2"style={{backgroundColor:'#0a58ca' ,color:'white'}} onClick={handleExtraClick}>Remove Extra Spaces</button>
